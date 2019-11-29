@@ -6,7 +6,10 @@ function startJS(){
         var wapperDiv = document.getElementById('wapper');
         wapperDiv.style.visibility = 'visible';
         var loadingP = document.getElementById('loading');
-        loadingP.style.display = 'none';
+        loadingP.style.opacity = 0;
+        loadingP.addEventListener('transitionend', function(){
+            loadingP.style.visibility = 'hidden';
+            });
         var backgroundImage = document.getElementById('backgroundImg');
         backgroundImage.style.backgroundImage = "url(http://wallarthd.com/wp-content/uploads/2015/10/Cool-Abstract-1920x1080.jpg)";
         backgroundImage.style.opacity = 1;
