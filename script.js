@@ -1,7 +1,7 @@
 
 function startJS(){
     var imgBG = document.createElement('img');
-    imgBG.src = 'http://wallarthd.com/wp-content/uploads/2015/10/Cool-Abstract-1920x1080.jpg'
+    imgBG.src = 'http://wallarthd.com/wp-content/uploads/2015/10/Cool-Abstract-1920x1080.jpg';
     window.addEventListener('load',function(event){
         var wapperDiv = document.getElementById('wapper');
         wapperDiv.style.visibility = 'visible';
