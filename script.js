@@ -8,7 +8,7 @@ function startJS(){
         var loadingP = document.getElementById('loading');
         loadingP.style.opacity = 0;
         loadingP.addEventListener('transitionend', function(){
-            loadingP.style.display: 'none';
+            loadingP.style.display = 'none';
             });
         var backgroundImage = document.getElementById('backgroundImg');
         backgroundImage.style.backgroundImage = "url(http://wallarthd.com/wp-content/uploads/2015/10/Cool-Abstract-1920x1080.jpg)";
